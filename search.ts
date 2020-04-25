@@ -8,3 +8,6 @@
       })
     }
   }
+
+// sort by name while fetching data from api
+res.sort((a, b) => a.name.localeCompare(b.name))
